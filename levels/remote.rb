@@ -4,7 +4,7 @@ description "Ten projekt posiada zdalne repozytorium. Znajdz jego nazwe."
 
 setup do
   repo.init
-  repo.remote_add("my_remote_repo", "https://github.com/Gazler/githug")
+  repo.remote_add("my_remote_repo", "https://github.com/FP-QAs/githug")
 end
 
 solution do
