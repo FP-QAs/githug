@@ -9,7 +9,7 @@ setup do
 end
 
 solution do
-  repo.commits.last.id_abbrev == request("What is the hash of the most recent commit?")[0..6]
+  repo.commits.last.id_abbrev == request("Jaki jest znacznik (hash) ostatniego commita?")[0..6]
 end
 
 hint do
