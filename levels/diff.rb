@@ -1,12 +1,12 @@
 difficulty 2
-description "Zostały wprowadzone zmiany w pliku 'app.rb' od Twojego ostatniego commita. Sprawdz ktora linijka zostala zmieniona."
+description "Zostaly wprowadzone zmiany w pliku 'app.rb' od Twojego ostatniego commita. Sprawdz ktora linijka zostala zmieniona."
 
 setup do
   init_from_level
 end
 
 solution do
-  line = request "What is the number of the line which has changed?"
+  line = request "Numer lini ktora zostala zmieniona to?"
   return false unless line == "26"
   true
 end

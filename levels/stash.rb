@@ -1,7 +1,6 @@
 difficulty 2
 description "Zrobiles kilka zmian z ktorymi chcesz pracowac pozniej. Powinienes zamisac je, ale nie commitowac."
-	
-end
+
 
 setup do
   init_from_level
